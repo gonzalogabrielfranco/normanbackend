@@ -28,6 +28,7 @@ E:\PortFolio\portfolio\portfolio\src\main\java\com\portfolio\portfolio\dtos\Mail
 E:\PortFolio\portfolio\portfolio\src\main\java\com\portfolio\portfolio\repositorys\PerfilRepository.java
 E:\PortFolio\portfolio\portfolio\src\main\java\com\portfolio\portfolio\models\Contact.java
 E:\PortFolio\portfolio\portfolio\src\main\java\com\portfolio\portfolio\security\JwtEntryPoint.java
+E:\PortFolio\portfolio\portfolio\src\main\java\com\portfolio\portfolio\configuration\MvcConfigurer.java
 E:\PortFolio\portfolio\portfolio\src\main\java\com\portfolio\portfolio\services\SendMailService.java
 E:\PortFolio\portfolio\portfolio\src\main\java\com\portfolio\portfolio\models\Skill.java
 E:\PortFolio\portfolio\portfolio\src\main\java\com\portfolio\portfolio\services\PerfilServiceImpl.java

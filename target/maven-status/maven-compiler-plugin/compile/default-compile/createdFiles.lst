@@ -27,6 +27,7 @@ com\portfolio\portfolio\services\TrainingServiceImpl.class
 com\portfolio\portfolio\controllers\UserController.class
 com\portfolio\portfolio\services\CertificateService.class
 com\portfolio\portfolio\controllers\ExperienceController.class
+com\portfolio\portfolio\configuration\MvcConfigurer.class
 com\portfolio\portfolio\models\Skill.class
 com\portfolio\portfolio\services\PerfilServiceImpl.class
 com\portfolio\portfolio\services\UserService.class
