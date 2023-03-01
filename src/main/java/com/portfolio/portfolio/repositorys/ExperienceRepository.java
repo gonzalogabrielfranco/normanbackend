@@ -6,11 +6,13 @@ package com.portfolio.portfolio.repositorys;
 
 import com.portfolio.portfolio.models.Experience;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author User
  */
+@Repository
 public interface ExperienceRepository extends JpaRepository<Experience,Long>{
     
 }

@@ -7,11 +7,13 @@ package com.portfolio.portfolio.services;
 import com.portfolio.portfolio.models.Certificate;
 import com.portfolio.portfolio.repositorys.CertificateRepository;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Service;
 
 /**
  *
  * @author Joel
  */
+@Service
 public class CertificateServiceImpl implements CertificateService{
 
     @Autowired

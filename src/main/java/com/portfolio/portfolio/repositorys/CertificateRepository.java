@@ -6,11 +6,13 @@ package com.portfolio.portfolio.repositorys;
 
 import com.portfolio.portfolio.models.Certificate;
 import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
 
 /**
  *
  * @author Joel
  */
+@Repository
 public interface CertificateRepository extends JpaRepository<Certificate, Long> {
    
 }
