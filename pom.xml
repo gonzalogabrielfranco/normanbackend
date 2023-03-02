@@ -16,19 +16,6 @@
 	<properties>
 		<java.version>17</java.version>
 	</properties>
-        <repositories>
-
-    <repository>
-
-        <id>AsposeJavaAPI</id>
-
-        <name>Aspose Java API</name>
-
-        <url>https://repository.aspose.com/repo/</url>
-
-    </repository>
-
-</repositories>
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
@@ -38,7 +25,6 @@
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
-
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-devtools</artifactId>
@@ -83,19 +69,7 @@
                     <groupId>org.springframework.boot</groupId>
                     <artifactId>spring-boot-starter-mail</artifactId>
                 </dependency>
-                <dependency>
-
-        <groupId>com.aspose</groupId>
-
-        <artifactId>aspose-imaging</artifactId>
-
-        <version>22.4</version>
-
-        <classifier>jdk16</classifier>
-
-   </dependency>
 	</dependencies>
-
 	<build>
 		<plugins>
 			<plugin>
@@ -112,5 +86,4 @@
 			</plugin>
 		</plugins>
 	</build>
-
 </project>

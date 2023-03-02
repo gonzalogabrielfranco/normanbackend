@@ -24,7 +24,6 @@ public class UserSecurityServiceImpl implements UserSecurityService {
     @Override
     public UserDetails loadUserByUsername(String name) throws UsernameNotFoundException {
 		User usuario = repository.findByName(name);
-                System.out.println("cantidad de roles "+usuario.getRole().size());
                 if(usuario == null) {
 			throw new UsernameNotFoundException("Usuario o password inválidos");
 		}
@@ -32,8 +31,7 @@ public class UserSecurityServiceImpl implements UserSecurityService {
 	}
 
 	private Collection<? extends GrantedAuthority> mapearAutoridadesRoles(Collection<Role> roles){
-                System.out.println("user: " + roles.stream().map(role -> new SimpleGrantedAuthority(role.getName())).collect(Collectors.toList()).toString());
-		return roles.stream().map(role -> new SimpleGrantedAuthority(role.getName())).collect(Collectors.toList());
+                return roles.stream().map(role -> new SimpleGrantedAuthority(role.getName())).collect(Collectors.toList());
 	}
 
     

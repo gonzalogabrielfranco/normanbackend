@@ -4,13 +4,11 @@
  */
 package com.portfolio.portfolio.controllers;
 
-import com.aspose.imaging.Image;
 import com.portfolio.portfolio.dtos.Mail;
 import com.portfolio.portfolio.dtos.UserClientDto;
 import com.portfolio.portfolio.models.Contact;
 import com.portfolio.portfolio.models.Perfil;
 import com.portfolio.portfolio.models.User;
-import com.portfolio.portfolio.services.FileService;
 import com.portfolio.portfolio.services.PerfilService;
 import com.portfolio.portfolio.services.SendMailService;
 import com.portfolio.portfolio.services.UserService;
@@ -56,8 +54,7 @@ import org.springframework.web.multipart.MultipartFile;
 public class PerfilController {
     @Autowired
     PerfilService service;
-    @Autowired
-    FileService fileService;
+    
     @Autowired
     JavaMailSender javaMailSender;
     @Autowired

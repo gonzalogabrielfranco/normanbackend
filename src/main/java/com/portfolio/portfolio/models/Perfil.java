@@ -30,18 +30,8 @@ public class Perfil {
     private String surname;
     private String description;
     @OneToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
-    @JoinTable(
-			name = "perfil_training",
-			joinColumns = @JoinColumn(name = "perfil_id",referencedColumnName = "id"),
-			inverseJoinColumns = @JoinColumn(name = "training_id",referencedColumnName = "id")
-			)
     private List<Training> training;
     @OneToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
-    @JoinTable(
-			name = "perfil_experience",
-			joinColumns = @JoinColumn(name = "perfil_id",referencedColumnName = "id"),
-			inverseJoinColumns = @JoinColumn(name = "experience_id",referencedColumnName = "id")
-			)
     private List<Experience> experience;
     @OneToMany(fetch = FetchType.LAZY,cascade = CascadeType.ALL)
     private List<Contact> contact;

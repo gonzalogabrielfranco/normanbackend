@@ -2,14 +2,12 @@ com\portfolio\portfolio\models\Jwt.class
 com\portfolio\portfolio\services\TrainingService.class
 com\portfolio\portfolio\controllers\TrainingController.class
 com\portfolio\portfolio\dtos\Mail.class
-com\portfolio\portfolio\services\FileService.class
 com\portfolio\portfolio\services\UserSecurityService.class
 com\portfolio\portfolio\models\Role.class
 com\portfolio\portfolio\dtos\UserLogin.class
 com\portfolio\portfolio\security\SecurityConfiguration.class
 com\portfolio\portfolio\controllers\PerfilController.class
 com\portfolio\portfolio\controllers\SecurityController.class
-com\portfolio\portfolio\services\FileServiceImpl.class
 com\portfolio\portfolio\security\JwtEntryPoint.class
 com\portfolio\portfolio\dtos\UserClientDto.class
 com\portfolio\portfolio\services\UserServiceImpl.class
